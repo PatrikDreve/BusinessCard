@@ -10,7 +10,7 @@ export default function MainInfo() {
         <img src={picture} alt="Header Image" className="Picture"/>
         <div className="mainInfo">
           <h1>Patrik Drevestedt</h1>
-          <h2>Full Stack Developer</h2>
+          <h2>Frontend Developer</h2>
           <h3>drevestedt.website</h3>
         </div>
           <button className="mailButton">
