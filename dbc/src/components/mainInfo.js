@@ -1,5 +1,6 @@
 import React from "react";
 import picture from "../images/2.jpg";
+import icon from "../images/mail_icon.png";
 import "../css/mainInfo.css"
 
 export default function MainInfo() {
@@ -12,9 +13,9 @@ export default function MainInfo() {
           <h2>Full Stack Developer</h2>
           <h3>drevestedt.website</h3>
         </div>
-        <div className="mailButton">
-          <button>Email</button>
-        </div>
+          <button className="mailButton">
+           <img src={icon} alt="Mail icon"/>
+          Email</button>
         <div className="about">
           <h3>About</h3>
           <h4>
